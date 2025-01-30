@@ -3,6 +3,7 @@ name: Release fhir-converter
 on:
   workflow_run:
     workflows: ["Test fhir-converter"]
+    branches: [main]
     types:
       - completed
 
