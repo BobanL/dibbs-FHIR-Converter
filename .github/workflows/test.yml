@@ -9,6 +9,10 @@ on:
     types:
       - checks_requested
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
 jobs:
   unit-test-dotnet-fhir-converter:
     runs-on: ubuntu-latest
