@@ -1,4 +1,6 @@
 # Skylight fork of microsoft/FHIR Converter
+Lorem ipsum dolor sit amet.
+
 
 FHIR converter is an open source project that enables conversion of health data from legacy formats to and from FHIR.  The FHIR converter uses the [Liquid template language](https://shopify.github.io/liquid/) and the .NET runtime.
 
